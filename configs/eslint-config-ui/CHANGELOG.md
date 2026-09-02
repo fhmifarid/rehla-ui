@@ -1,4 +1,4 @@
-# @medusajs/eslint-config-ui
+# @rehla-ui/eslint-config
 
 ## 0.0.1
 

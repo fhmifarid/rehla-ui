@@ -16,7 +16,7 @@
     "alwaysStrict": true,
     "skipLibCheck": true,
     "paths": {
-      "@medusajs/ui": ["./src/index.tsx"],
+      "@rehla-ui/ui": ["./src/index.ts"],
       "@/components/*": ["./src/components/*"],
       "@/providers/*": ["./src/providers/*"],
       "@/hooks/*": ["./src/hooks/*"],

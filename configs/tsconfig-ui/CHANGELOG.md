@@ -1,4 +1,4 @@
-# @medusajs/tsconfig-ui
+# @rehla-ui/tsconfig
 
 ## 0.0.1
 

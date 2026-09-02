@@ -1,6 +1,6 @@
 /* eslint-env node */
 module.exports = {
-  extends: ["@medusajs/eslint-config-ui"],
+  extends: ["@rehla-ui/eslint-config"],
   parserOptions: {
     project: "./tsconfig.json",
   },

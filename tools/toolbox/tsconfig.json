@@ -1,5 +1,5 @@
 {
-  "extends": "@medusajs/tsconfig-ui/base.json",
+  "extends": "@rehla-ui/tsconfig/base.json",
   "compilerOptions": {
     "allowJs": true,
     "checkJs": false,

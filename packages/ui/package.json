@@ -1,7 +1,7 @@
 {
-  "name": "@medusajs/ui",
-  "version": "2.2.0",
-  "author": "Kasper Kristensen <kasper@medusajs.com>",
+  "name": "@rehla-ui/ui",
+  "version": "1.0.0",
+  "author": "Rehla UI Maintainers <team@rehla.local>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -42,8 +42,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@medusajs/eslint-config-ui": "*",
-    "@medusajs/tsconfig-ui": "*",
+    "@rehla-ui/eslint-config": "*",
+    "@rehla-ui/tsconfig": "*",
     "@storybook/addon-essentials": "^7.0.23",
     "@storybook/addon-interactions": "^7.0.23",
     "@storybook/addon-links": "^7.0.23",

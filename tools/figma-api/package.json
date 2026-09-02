@@ -1,8 +1,8 @@
 {
-  "name": "@medusajs/figma-api",
-  "version": "0.0.0",
-  "description": "Figma API client for Medusa UI generation tools",
-  "author": "Kasper Kristensen <kasper@medusajs.com>",
+  "name": "@rehla-ui/figma-api",
+  "version": "0.1.0",
+  "description": "Figma API client for Rehla UI generation tools",
+  "author": "Rehla UI Maintainers <team@rehla.local>",
   "license": "MIT",
   "exports": {
     ".": {
@@ -21,8 +21,8 @@
     "axios-retry": "3.5.1"
   },
   "devDependencies": {
-    "@medusajs/eslint-config-ui": "*",
-    "@medusajs/tsconfig-ui": "*",
+    "@rehla-ui/eslint-config": "*",
+    "@rehla-ui/tsconfig": "*",
     "eslint": "^7.32.0",
     "tsup": "7.1.0",
     "typescript": "5.1.6"
