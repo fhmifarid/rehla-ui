@@ -8,7 +8,7 @@ import {
   EllipseOrangeSolid,
   EllipsePurpleSolid,
   EllipseRedSolid,
-} from "@medusajs/icons"
+} from "@rehla-ui/ui/icons"
 
 interface StatusBadgeProps
   extends Omit<React.ComponentPropsWithoutRef<"span">, "color"> {

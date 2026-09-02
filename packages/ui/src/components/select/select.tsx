@@ -1,6 +1,6 @@
 "use client"
 
-import { ChevronUpDown, EllipseMiniSolid } from "@medusajs/icons"
+import { ChevronUpDown, EllipseMiniSolid } from "@rehla-ui/ui/icons"
 import * as SelectPrimitive from "@radix-ui/react-select"
 import { cva } from "class-variance-authority"
 import * as React from "react"

@@ -1,7 +1,7 @@
 import { VariantProps, cva } from "class-variance-authority"
 import * as React from "react"
 
-import { ExclamationCircleSolid } from "@medusajs/icons"
+import { ExclamationCircleSolid } from "@rehla-ui/ui/icons"
 import { clx } from "../../utils/clx"
 
 const hintVariants = cva(
