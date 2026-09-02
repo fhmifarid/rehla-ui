@@ -1,5 +1,5 @@
 {
-  "name": "medusa-ui",
+  "name": "rehla-ui-monorepo",
   "private": true,
   "scripts": {
     "test": "turbo run test",
@@ -23,8 +23,8 @@
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.18.6",
-    "@medusajs/eslint-config-ui": "*",
-    "@medusajs/toolbox": "*",
+    "@rehla-ui/eslint-config": "*",
+    "@rehla-ui/toolbox": "*",
     "babel-loader": "^9.1.2",
     "eslint": "^8.44.0",
     "prettier": "^2.5.1",
