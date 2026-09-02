@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["@medusajs/eslint-config-ui"],
+  extends: ["@rehla-ui/eslint-config"],
 }

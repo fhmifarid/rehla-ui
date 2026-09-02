@@ -1,5 +1,5 @@
 {
-  "name": "rehla-ui-monorepo",
+  "name": "rehla-ui",
   "private": true,
   "scripts": {
     "test": "turbo run test",
