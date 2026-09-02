@@ -7,7 +7,7 @@ import { effects } from "./theme/tokens/effects"
 import { typography } from "./theme/tokens/typography"
 
 export default plugin(
-  function medusaUi({ addBase, addComponents, config }) {
+  function rehlaUi({ addBase, addComponents, config }) {
     const [darkMode, className = ".dark"] = ([] as string[]).concat(
       config("darkMode", "media")
     )
