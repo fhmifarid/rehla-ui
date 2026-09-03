@@ -1,6 +1,13 @@
-/** @type {import('tailwindcss').Config} */
+const preset = (() => {
+  try {
+    return require("./dist/preset/index.cjs")
+  } catch {
+    return require("./src/preset")
+  }
+})()
+
 module.exports = {
-  presets: [require("./src/preset")],
+  presets: [preset],
   content: ["./src/**/*.{ts,tsx,js,jsx}"],
   darkMode: ["class", '[data-mode="dark"]'],
 }
