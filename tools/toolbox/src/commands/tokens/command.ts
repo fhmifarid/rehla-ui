@@ -1,4 +1,4 @@
-import { Node, PaintGradient, PaintType } from "@medusajs/figma-api"
+import { Node, PaintGradient, PaintType } from "@rehla-ui/figma-api"
 import fse from "fs-extra"
 import path from "path"
 import type { CSSProperties } from "react"

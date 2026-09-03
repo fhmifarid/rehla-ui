@@ -1,4 +1,4 @@
-import Figma from "@medusajs/figma-api"
+import Figma from "@rehla-ui/figma-api"
 import dotenv from "dotenv"
 import { resolve } from "path"
 

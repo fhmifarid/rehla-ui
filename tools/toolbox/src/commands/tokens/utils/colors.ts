@@ -3,7 +3,7 @@ import {
   type Color,
   type PaintGradient,
   type Vector,
-} from "@medusajs/figma-api"
+} from "@rehla-ui/figma-api"
 import type { CSSProperties } from "react"
 import { logger } from "../../../logger"
 
