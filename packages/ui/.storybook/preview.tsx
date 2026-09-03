@@ -1,5 +1,6 @@
 import { withThemeByDataAttribute } from "@storybook/addon-styling"
 import type { Preview } from "@storybook/react"
+import { Analytics } from "@vercel/analytics/react"
 
 import "../src/main.css"
 
@@ -12,6 +13,12 @@ export const decorators = [
     defaultTheme: "light",
     attributeName: "data-mode",
   }),
+  (Story) => (
+    <>
+      <Story />
+      <Analytics />
+    </>
+  ),
 ]
 
 const preview: Preview = {
