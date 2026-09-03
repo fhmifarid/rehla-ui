@@ -1,4 +1,32 @@
-# @medusajs/ui
+# @rehla-ui/ui
+
+## 1.0.0 (2026-09-03)
+
+Initial release of `@rehla-ui/ui`, a fork of the (now-archived) `@medusajs/ui` design system.
+
+### Highlights
+
+- React 18 + Tailwind CSS 3 + Radix UI primitives.
+- 39 components, 3 hooks, 1 utility (`clx`).
+- 245 icons exposed under `@rehla-ui/ui/icons`.
+- Tailwind preset exposed under `@rehla-ui/ui/preset`.
+- Pre-built stylesheet at `@rehla-ui/ui/styles.css`.
+
+### Migration from `@medusajs/ui`
+
+See [`MIGRATION.md`](./MIGRATION.md) for instructions.
+
+### Acknowledgements
+
+Rehla UI is based on the design system originally authored by the Medusa team
+under the MIT license. The component APIs, design tokens, and visual output
+are unchanged from `@medusajs/ui` 2.2.0.
+
+---
+
+# Historical changelog (from `@medusajs/ui`)
+
+## @medusajs/ui
 
 ## 2.2.0
 
