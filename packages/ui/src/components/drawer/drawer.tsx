@@ -1,6 +1,6 @@
 "use client"
 
-import { XMark } from "@medusajs/icons"
+import { XMark } from "@rehla-ui/ui/icons"
 import * as DrawerPrimitives from "@radix-ui/react-dialog"
 import * as React from "react"
 

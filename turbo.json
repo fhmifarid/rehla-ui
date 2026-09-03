@@ -4,20 +4,19 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": ["dist/**"]
+    },
+    "build:css": {
+      "outputs": ["dist/**/*.css"]
     },
     "test": {
-      "dependsOn": ["^test"],
-      "outputs": ["coverage/**", "!.next/**"]
+      "dependsOn": ["^build"],
+      "outputs": ["coverage/**"]
     },
     "lint": {},
     "dev": {
       "cache": false,
       "persistent": true
-    },
-    "generate:icons": {
-      "dependsOn": ["^build"],
-      "env": ["FIGMA_TOKEN"]
     }
   }
 }

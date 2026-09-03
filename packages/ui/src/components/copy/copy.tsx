@@ -2,7 +2,7 @@
 
 import { Tooltip } from "@/components/tooltip"
 import { clx } from "@/utils/clx"
-import { CheckCircleSolid, SquareTwoStack } from "@medusajs/icons"
+import { CheckCircleSolid, SquareTwoStack } from "@rehla-ui/ui/icons"
 import { Slot } from "@radix-ui/react-slot"
 import copy from "copy-to-clipboard"
 import React, { useState } from "react"

@@ -1,16 +1,16 @@
 {
-  "name": "@medusajs/toolbox",
+  "name": "@rehla-ui/toolbox",
   "private": true,
-  "version": "0.0.0",
-  "description": "CLI tool for importing Figma designs for Medusa UI",
+  "version": "0.1.0",
+  "description": "CLI tool for importing Figma designs for Rehla UI",
   "license": "MIT",
-  "author": "Kasper Kristensen <kasper@medusajs.com>",
+  "author": "Rehla UI Maintainers <team@rehla.local>",
   "bin": "./bin/toolbox.js",
   "scripts": {
     "build": "tsup"
   },
   "dependencies": {
-    "@medusajs/figma-api": "*",
+    "@rehla-ui/figma-api": "*",
     "@svgr/core": "8.0.0",
     "@svgr/plugin-jsx": "8.0.1",
     "@svgr/plugin-prettier": "8.0.1",
@@ -22,8 +22,8 @@
     "ts-dedent": "2.2.0"
   },
   "devDependencies": {
-    "@medusajs/eslint-config-ui": "*",
-    "@medusajs/tsconfig-ui": "*",
+    "@rehla-ui/eslint-config": "*",
+    "@rehla-ui/tsconfig": "*",
     "@types/fs-extra": "11.0.1",
     "@types/react": "^18.2.14",
     "eslint": "7.32.0",

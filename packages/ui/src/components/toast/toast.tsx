@@ -6,7 +6,7 @@ import {
   InformationCircleSolid,
   Spinner,
   XCircleSolid,
-} from "@medusajs/icons"
+} from "@rehla-ui/ui/icons"
 import * as Primitives from "@radix-ui/react-toast"
 import * as React from "react"
 

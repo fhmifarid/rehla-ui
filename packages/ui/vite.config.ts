@@ -8,6 +8,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
+      "@rehla-ui/ui/icons": "/src/icons/index.ts",
+      "@rehla-ui/ui": "/src/index.ts",
       "@/components": "/src/components",
       "@/providers": "/src/providers",
       "@/hooks": "/src/hooks",

@@ -3,7 +3,7 @@ import { cva, type VariantProps } from "class-variance-authority"
 import * as React from "react"
 
 import { clx } from "@/utils/clx"
-import { Spinner } from "@medusajs/icons"
+import { Spinner } from "@rehla-ui/ui/icons"
 
 const buttonVariants = cva(
   clx(

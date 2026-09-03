@@ -1,21 +1,37 @@
-# Contributing
+# Contributing to Rehla UI
 
-Thank you for considering contributing to Medusa! This document will outline how to submit changes to this repository and which conventions to follow. If you are ever in doubt about anything we encourage you to reach out either by submitting an issue here or reaching out [via Discord](https://discord.gg/xpCwq3Kfn8).
-
-If you're contributing to our documentation, make sure to also check out the [contribution guidelines on our documentation website](https://docs.medusajs.com/contribution-guidelines).
-
-### Important
-
-Our core maintainers prioritize pull requests (PRs) from within our organization. External contributions are regularly triaged, but not at any fixed cadence. It varies depending on how busy the maintainers are. This is applicable to all types of PRs, so we kindly ask for your patience.
-
-If you, as a community contributor, wish to work on more extensive features, please reach out to CODEOWNERS instead of directly submitting a PR with all the changes. This approach saves us both time, especially if the PR is not accepted (which will be the case if it does not align with our roadmap), and helps us effectively review and evaluate your contribution if it is accepted.
+Rehla UI is an internal design system for the Rehla (رحله) project. Pull requests are welcome from anyone in the Rehla organization or the wider community. All contributions are reviewed by the Rehla UI maintainers.
 
 ## Prerequisites
 
-- **You're familiar with GitHub Issues and Pull Requests**
-- **You've read the [docs](https://docs.medusajs.com).**
-- **You've setup a test project with `medusa new`**
+- Node.js 18+
+- Yarn 3 (the repo ships its own binary via `corepack`)
+- Familiarity with React, TypeScript, Tailwind CSS
 
-## Before opening a PR
+## Working on a component
 
-Please be aware that we only accept PR's for the `ui` package, as both `icons` and `ui-preset` are auto-generated, and should not be edited manually. If you discover any issues with these packages, please open an issue instead. For more information on how to contribute to the `ui` package, please read the [contribution guidelines](./packages/ui/CONTRIBUTING.md).
+Most work happens in `packages/ui/src/components/<component-name>/`. Each component lives in a folder containing:
+
+- `<component>.tsx` — the component implementation
+- `<component>.stories.tsx` — Storybook story
+- `<component>.spec.tsx` — Vitest tests (not every component has tests; the goal is one test per meaningful behavior)
+- `index.ts` — re-export
+
+Tailwind classes follow the design tokens defined in `packages/ui/src/preset/theme/tokens/`. Don't introduce ad-hoc colors or font sizes.
+
+## Running tests and Storybook
+
+```bash
+yarn workspace @rehla-ui/ui test
+yarn workspace @rehla-ui/ui storybook
+```
+
+## Naming
+
+- All package names use the `@rehla-ui` scope.
+- Component files are PascalCase (`DatePicker.tsx`).
+- Hooks are prefixed with `use-` (`use-toast.ts`).
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the MIT License.

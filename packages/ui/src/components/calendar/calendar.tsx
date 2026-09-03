@@ -1,6 +1,6 @@
 "use client"
 
-import { ChevronLeftMini, ChevronRightMini } from "@medusajs/icons"
+import { ChevronLeftMini, ChevronRightMini } from "@rehla-ui/ui/icons"
 import * as React from "react"
 import {
   DayPicker,

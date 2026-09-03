@@ -4,7 +4,7 @@ import {
   CheckCircleSolid,
   CircleDottedLine,
   CircleHalfSolid,
-} from "@medusajs/icons"
+} from "@rehla-ui/ui/icons"
 import * as ProgressTabsPrimitives from "@radix-ui/react-tabs"
 import * as React from "react"
 

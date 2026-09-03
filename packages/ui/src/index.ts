@@ -45,5 +45,8 @@ export { useToggleState } from "./hooks/use-toggle-state"
 // Utils
 export { clx } from "./utils/clx"
 
+// Icons (sub-path mirror: also available via @rehla-ui/ui/icons)
+export * from "./icons"
+
 // Types
 export * from "./types"
