@@ -1,3 +1,4 @@
+import * as React from "react"
 import { cleanup, render, screen } from "@testing-library/react"
 import fs from "fs"
 import path from "path"
