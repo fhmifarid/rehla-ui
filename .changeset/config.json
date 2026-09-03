@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@rehla-ui/toolbox", "@rehla-ui/figma-api", "@rehla-ui/tsconfig", "rehla-ui-smoke"]
+  "ignore": ["@rehla-ui/toolbox", "@rehla-ui/figma-api", "rehla-ui-smoke"]
 }
