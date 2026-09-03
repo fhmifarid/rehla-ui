@@ -1,0 +1,4 @@
+{
+  "buildCommand": "yarn storybook:build",
+  "outputDirectory": "storybook-static"
+}
