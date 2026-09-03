@@ -29,7 +29,8 @@
   "workspaces": [
     "packages/*",
     "tools/*",
-    "configs/*"
+    "configs/*",
+    "tests/*"
   ],
   "dependencies": {
     "@changesets/cli": "^2.26.1",

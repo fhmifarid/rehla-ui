@@ -13,24 +13,24 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/esm/index.d.ts",
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./icons": {
-      "types": "./dist/esm/icons/index.d.ts",
-      "import": "./dist/esm/icons/index.js",
-      "require": "./dist/cjs/icons/index.js"
+      "types": "./dist/icons/index.d.ts",
+      "import": "./dist/icons/index.js",
+      "require": "./dist/icons/index.cjs"
     },
     "./preset": {
-      "types": "./dist/cjs/preset/index.d.ts",
-      "import": "./dist/esm/preset/index.mjs",
-      "require": "./dist/cjs/preset/index.js"
+      "types": "./dist/preset/index.d.ts",
+      "import": "./dist/preset/index.mjs",
+      "require": "./dist/preset/index.cjs"
     },
     "./styles.css": "./dist/styles.css",
     "./package.json": "./package.json"

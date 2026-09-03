@@ -9,17 +9,22 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     sourcemap: true,
-    clean: true,
     treeshake: true,
     target: "es2018",
     external: ["react", "react-dom"],
+    outExtension({ format }) {
+      return { js: format === "cjs" ? ".cjs" : ".js" }
+    },
   },
   {
     entry: { "preset/index": "src/preset/index.ts" },
     format: ["esm", "cjs"],
     dts: true,
+    sourcemap: true,
+    treeshake: true,
+    target: "es2018",
     outExtension({ format }) {
-      return { js: format === "cjs" ? ".js" : ".mjs" }
+      return { js: format === "cjs" ? ".cjs" : ".mjs" }
     },
     external: [],
   },
