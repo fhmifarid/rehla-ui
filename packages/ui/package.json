@@ -1,13 +1,17 @@
 {
   "name": "@rehla-ui/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rehla UI — A React component library built on Tailwind CSS and Radix UI primitives",
   "author": "Rehla UI Maintainers <team@rehla.local>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rehla/ui.git",
+    "url": "https://github.com/fhmifarid/rehla-ui.git",
     "directory": "packages/ui"
+  },
+  "homepage": "https://github.com/fhmifarid/rehla-ui#readme",
+  "bugs": {
+    "url": "https://github.com/fhmifarid/rehla-ui/issues"
   },
   "type": "module",
   "sideEffects": [

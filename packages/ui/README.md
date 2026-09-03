@@ -12,4 +12,4 @@ import { Button } from "@rehla-ui/ui"
 export const App = () => <Button variant="primary">Hello Rehla</Button>
 ```
 
-See the [root README](../../README.md) for full documentation.
+See the [GitHub README](https://github.com/fhmifarid/rehla-ui#readme) for full documentation.

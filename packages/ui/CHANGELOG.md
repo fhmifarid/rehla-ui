@@ -1,5 +1,9 @@
 # @rehla-ui/ui
 
+## 1.0.1 (2026-09-03)
+
+- Fix repository, homepage, and issue tracker URLs in package metadata to point to `https://github.com/fhmifarid/rehla-ui`.
+
 ## 1.0.0 (2026-09-03)
 
 Initial release of `@rehla-ui/ui`, a fork of the (now-archived) `@medusajs/ui` design system.

@@ -1,6 +1,14 @@
 {
   "name": "rehla-ui",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fhmifarid/rehla-ui.git"
+  },
+  "homepage": "https://github.com/fhmifarid/rehla-ui#readme",
+  "bugs": {
+    "url": "https://github.com/fhmifarid/rehla-ui/issues"
+  },
   "scripts": {
     "test": "turbo run test",
     "build": "turbo run build",

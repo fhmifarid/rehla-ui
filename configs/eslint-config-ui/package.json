@@ -1,8 +1,18 @@
 {
   "name": "@rehla-ui/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Shared ESLint configuration for the Rehla UI monorepo and consumer projects",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fhmifarid/rehla-ui.git",
+    "directory": "configs/eslint-config-ui"
+  },
+  "homepage": "https://github.com/fhmifarid/rehla-ui#readme",
+  "bugs": {
+    "url": "https://github.com/fhmifarid/rehla-ui/issues"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",

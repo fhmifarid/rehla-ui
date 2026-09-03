@@ -1,7 +1,17 @@
 {
   "name": "@rehla-ui/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Shared TypeScript configurations for the Rehla UI monorepo",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fhmifarid/rehla-ui.git",
+    "directory": "configs/tsconfig-ui"
+  },
+  "homepage": "https://github.com/fhmifarid/rehla-ui#readme",
+  "bugs": {
+    "url": "https://github.com/fhmifarid/rehla-ui/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
