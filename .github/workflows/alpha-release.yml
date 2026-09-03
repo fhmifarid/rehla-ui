@@ -3,7 +3,7 @@ name: Alpha release
 on:
   workflow_dispatch:
     branches:
-      - develop
+      - main
       
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
