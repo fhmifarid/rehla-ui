@@ -39,7 +39,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "yarn clean && yarn build:css && yarn build:js",
+    "build": "yarn clean && yarn build:js && yarn build:css",
     "build:css": "tailwindcss -i ./src/main.css -o ./dist/styles.css --minify",
     "build:js": "tsup",
     "clean": "rimraf dist",
