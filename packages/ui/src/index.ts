@@ -1,3 +1,4 @@
+export { Analytics } from "./components/analytics"
 export { Avatar } from "./components/avatar"
 export { Badge } from "./components/badge"
 export { Button } from "./components/button"

@@ -75,6 +75,7 @@
     "@radix-ui/react-tooltip": "^1.0.6",
     "@react-aria/datepicker": "^3.5.0",
     "@react-stately/datepicker": "^3.5.0",
+    "@vercel/analytics": "^2.0.1",
     "class-variance-authority": "^0.6.1",
     "clsx": "^1.2.1",
     "copy-to-clipboard": "^3.3.3",
