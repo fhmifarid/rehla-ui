@@ -1,10 +1,12 @@
-const preset = (() => {
+const presetModule = (() => {
   try {
     return require("./dist/preset/index.cjs")
   } catch {
     return require("./src/preset")
   }
 })()
+
+const preset = presetModule.default || presetModule.preset || presetModule
 
 module.exports = {
   presets: [preset],
